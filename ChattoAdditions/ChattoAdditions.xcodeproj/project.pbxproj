@@ -42,7 +42,6 @@
 		C3C0CC421BFE496A0052747C /* TextMessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0CBF51BFE496A0052747C /* TextMessageCollectionViewCell.swift */; };
 		C3C0CC431BFE496A0052747C /* TextMessageCollectionViewCellDefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0CBF61BFE496A0052747C /* TextMessageCollectionViewCellDefaultStyle.swift */; };
 		C3C0CC4F1BFE496A0052747C /* ChatInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0CC041BFE496A0052747C /* ChatInputBar.swift */; };
-		C3C0CC501BFE496A0052747C /* ChatInputBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C0CC051BFE496A0052747C /* ChatInputBar.xib */; };
 		C3C0CC511BFE496A0052747C /* ChatInputBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0CC061BFE496A0052747C /* ChatInputBarAppearance.swift */; };
 		C3C0CC521BFE496A0052747C /* ChatInputBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0CC071BFE496A0052747C /* ChatInputBarPresenter.swift */; };
 		C3C0CC531BFE496A0052747C /* ChatInputItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0CC081BFE496A0052747C /* ChatInputItem.swift */; };
@@ -80,6 +79,7 @@
 		C3C9BC8F1D11540D00F3A54E /* TabInputButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9BC8E1D11540D00F3A54E /* TabInputButton.swift */; };
 		C3EFA6B01C03607A0063CE22 /* BaseMessagePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EFA6AF1C03607A0063CE22 /* BaseMessagePresenterTests.swift */; };
 		CA073E791C47F5B9009D5EBF /* Chatto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA073E781C47F5B9009D5EBF /* Chatto.framework */; };
+		E20B6B6B1E1BF00B005F1D9A /* ChatInputBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20B6B6A1E1BF00B005F1D9A /* ChatInputBar.xib */; };
 		F6D04BA71CA46C0200E803FA /* PhotosInputPlaceholderDataProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D04BA61CA46C0200E803FA /* PhotosInputPlaceholderDataProviderTests.swift */; };
 		F6D04BA91CA46D5000E803FA /* PhotosInputWithPlaceholdersDataProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D04BA81CA46D5000E803FA /* PhotosInputWithPlaceholdersDataProviderTests.swift */; };
 /* End PBXBuildFile section */
@@ -131,7 +131,6 @@
 		C3C0CBF61BFE496A0052747C /* TextMessageCollectionViewCellDefaultStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextMessageCollectionViewCellDefaultStyle.swift; sourceTree = "<group>"; };
 		C3C0CC021BFE496A0052747C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3C0CC041BFE496A0052747C /* ChatInputBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputBar.swift; sourceTree = "<group>"; };
-		C3C0CC051BFE496A0052747C /* ChatInputBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatInputBar.xib; sourceTree = "<group>"; };
 		C3C0CC061BFE496A0052747C /* ChatInputBarAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputBarAppearance.swift; sourceTree = "<group>"; };
 		C3C0CC071BFE496A0052747C /* ChatInputBarPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputBarPresenter.swift; sourceTree = "<group>"; };
 		C3C0CC081BFE496A0052747C /* ChatInputItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputItem.swift; sourceTree = "<group>"; };
@@ -171,6 +170,7 @@
 		C3C9BC8E1D11540D00F3A54E /* TabInputButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabInputButton.swift; sourceTree = "<group>"; };
 		C3EFA6AF1C03607A0063CE22 /* BaseMessagePresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMessagePresenterTests.swift; sourceTree = "<group>"; };
 		CA073E781C47F5B9009D5EBF /* Chatto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chatto.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Chatto-gyrilfusfbpmohajjvmmctphuabr/Build/Products/Debug-iphoneos/Chatto.framework"; sourceTree = "<group>"; };
+		E20B6B6A1E1BF00B005F1D9A /* ChatInputBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatInputBar.xib; sourceTree = "<group>"; };
 		F6D04BA61CA46C0200E803FA /* PhotosInputPlaceholderDataProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosInputPlaceholderDataProviderTests.swift; sourceTree = "<group>"; };
 		F6D04BA81CA46D5000E803FA /* PhotosInputWithPlaceholdersDataProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosInputWithPlaceholdersDataProviderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -328,8 +328,8 @@
 		C3C0CC031BFE496A0052747C /* Input */ = {
 			isa = PBXGroup;
 			children = (
+				E20B6B6A1E1BF00B005F1D9A /* ChatInputBar.xib */,
 				C3C0CC041BFE496A0052747C /* ChatInputBar.swift */,
-				C3C0CC051BFE496A0052747C /* ChatInputBar.xib */,
 				C3C0CC061BFE496A0052747C /* ChatInputBarAppearance.swift */,
 				C3C0CC071BFE496A0052747C /* ChatInputBarPresenter.swift */,
 				C3C0CC081BFE496A0052747C /* ChatInputItem.swift */,
@@ -536,9 +536,9 @@
 			files = (
 				C3C0CC6C1BFE496A0052747C /* CircleProgressIndicator.xcassets in Resources */,
 				C3C0CC581BFE496A0052747C /* Photos.xcassets in Resources */,
+				E20B6B6B1E1BF00B005F1D9A /* ChatInputBar.xib in Resources */,
 				C3C0CC2D1BFE496A0052747C /* BaseMessageAssets.xcassets in Resources */,
 				C3C0CC611BFE496A0052747C /* Text.xcassets in Resources */,
-				C3C0CC501BFE496A0052747C /* ChatInputBar.xib in Resources */,
 				C3C0CC391BFE496A0052747C /* PhotoMessageAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
